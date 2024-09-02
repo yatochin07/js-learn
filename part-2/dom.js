@@ -8,6 +8,11 @@ let h1 = document.createElement('h1')
 h1.textContent = "THIS IS H1"
 body.append(h1)
 
+const newText = document.createElement('h1')
+newText.textContent = "new text"
+body.append(newText)
+
+
 const namaSaya = document.createElement('p')
 namaSaya.innerHTML = "<marquee>EGA TETAMA</marquee>"
 const namaKamu = document.createElement('p')
